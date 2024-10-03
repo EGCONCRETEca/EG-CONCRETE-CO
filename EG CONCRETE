@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Concrete Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Your Concrete Business Logo">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Reliable Concrete Solutions</h1>
+            <p>Building the foundation for your dreams</p>
+            <a href="#contact" class="cta-button">Get a Free Quote</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Residential Concrete</h3>
+                <p>Driveways, patios, and foundations to make your home strong and beautiful.</p>
+            </div>
+            <div class="card">
+                <h3>Commercial Concrete</h3>
+                <p>We handle large-scale projects, including commercial building foundations and parking lots.</p>
+            </div>
+            <div class="card">
+                <h3>Decorative Concrete</h3>
+                <p>Stamped and colored concrete for custom designs and finishes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2>Project Gallery</h2>
+        <div class="gallery-grid">
+            <img src="project1.jpg" alt="Concrete project 1">
+            <img src="project2.jpg" alt="Concrete project 2">
+            <img src="project3.jpg" alt="Concrete project 3">
+            <img src="project4.jpg" alt="Concrete project 4">
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <p>"The quality of work was exceptional. Our driveway looks fantastic!"</p>
+                <p>- Sarah J.</p>
+            </div>
+            <div class="testimonial">
+                <p>"Reliable service and great results for our commercial building project."</p>
+                <p>- Mark W.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a project in mind? Get in touch with us today!</p>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <textarea name="message" rows="5" placeholder="Tell us about your project"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a family-owned concrete business with over 20 years of experience, providing high-quality and durable concrete solutions for both residential and commercial clients.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Concrete Business | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
